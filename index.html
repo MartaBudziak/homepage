@@ -10,17 +10,32 @@
 <body>
 
     <header>
+        <nav>
+            <a href="index.html">Strona główna</a>
+            <a href="nauka-html.html">Nauka HTML</a>
+        </nav>
+    </header>
 
-        <section>
-            <h2>Kim jestem?</h2>
-            <p>Lorem ipsum dolor <b>sit amet consectetur</b> adipisicing elit. 
+        <main>
+            <header id="top">
+                <h1>Maciek Korsan - Strona domowa</h1>
+            </header>
+        <section class="about">
+            <h2 class="czerwony">Kim jestem?</h2>
+            <img src="korsi.png" alt="Zdjęcie Maćka Korsana">
+            <p>
+                Lorem ipsum dolor <b>sit amet consectetur</b> adipisicing elit. 
                 Animi ipsam <strong>quaerat ea quos</strong> repellat omnis officiis, 
                 dignissimos <em>laudantium exercitationem</em>, deleniti explicabo 
-                <u>aliquam repellendus</u> quisquam. <i>Amet numquam delectus </i>velit culpa vitae?</p>
+                <u>aliquam repellendus</u> quisquam. <i>Amet numquam delectus </i>velit culpa vitae?
+            </p>
+            <p>
+                Poczytaj więcej o <a href="#szkolenie">nagrywaniu szkolenia</a>
+            </p>
         </section>
         <section>
             <h2>Notatki z WTF: Co ten frontend</h2>
-            <article>
+            <article class="my-article">
                 <h3>Jak stworzyć prawidłowo html?</h3>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
@@ -33,7 +48,7 @@
                 <h3>nagłówek</h3>
                 <p>testowa treść</p>
             </article>
-            <article>
+            <article id="szkolenie">
                 <h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -43,10 +58,15 @@
                 </p>
             </article>
         </section>
+    </main>
 
-    </header>
+    <footer>
+        <p>
+            Strona domowa Maćka Korsana, wszystkie treści są efektem tworzenia szkolenia WTF: Co ten frontend.
+            <a href="#top">Do góry</a>
+        </p>    
+    </footer>
 
-    <script src="main.js"></script>
-    
+    <script src="main.js"> </script>
 </body>
-</html>
+</html> 
